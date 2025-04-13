@@ -10,7 +10,7 @@ In order for you to kill the server, you need to get a command block with a comm
 put it up and type my command in there and click done so that it is saved inside. After that, hold down Ctrl and press MMB, hovering over the block to copy the block with the NBT tag. 
 
 Take out the wooden pressure plate (or redstone block) and the anvil from the inventory (I'll tell you about the anvil later). 
-Command block in 1 slot, pressure plate (or redstone block) in 2, anvil in 3. Press C+ [0-9] to save your hotbar. 
+Command block in 1 slot, pressure plate (or redstone block) in 2, anvil in 3. Press C + [0-9] to save your hotbar. 
 After that, you can press X + [the number you saved the hotbar to] to download the hotbar. Or you can manually take the command block from there.
 
 To launch a command, it's not enough just to power up the command unit - it will flood the armorstand with a bunch of passengers. 
@@ -23,7 +23,7 @@ Let's say it takes 5 seconds for him to realize that he's fucked. 2000 multiplie
 Usually, Minecraft is allocated around 4GB of RAM, so it will stupidly freeze, and the server will come to an end. Of course, if someone will load command blocks. Give yourself the name dw13GUr (my name, the name of the creator), 
 and you will be teleported away, but not close to the command blocks. You'll be far enough away not to render entities, but (maybe) load the command blocks. 
 
-Ordinary players can't get and give themselves command blocks, so you need to come up with something. If the server is just a self-embed of laziness and greed, then you can use certain software to hack access to the server and the operator's role. 
+Ordinary players can't get and give themselves command blocks, so you need to come up with something. If the server is just a self-embodiment of laziness and greed, then you can use certain software to hack access to the server and the operator's role. 
 After that, you can give yourself anything and crash the server. If this is a LAN game or you just don't have these software, then you can try to scam the developer. 
 You can tell him that you are an experienced programmer who is looking for fame and support. The fact that your teams can do a lot, such as build statues, portraits, beautiful buildings, mechanisms, or worse. If the developer is a dumb-ass jerk, 
 then he will give you a creative or even a role, but at the same time you need an operator and or a person who has permission to do this to put the command block. 
