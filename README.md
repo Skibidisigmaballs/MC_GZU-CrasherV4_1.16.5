@@ -1,6 +1,8 @@
-P.S. - I FORBID changing the code, posting it under YOUR name, showing it on video and not leaving the author's name (is this even possible considering that it stupidly shows it on the whole screen?) and to say that it's yours, but I allow you to use it.
+P.S. No1 - Command was made for Java, not Bedrock
 
-P.S. No2 - Keep in mind that the code is MALICIOUS in its own sense. I DISCLAIM responsibility for all damages caused by the code. Keep this in mind.
+P.S. No2 - I FORBID changing the code, posting it under YOUR name, showing it on video and not leaving the author's name (is this even possible considering that it stupidly shows it on the whole screen?) and to say that it's yours, but I allow you to use it.
+
+P.S. No3 - Keep in mind that the code is MALICIOUS in its own sense. I DISCLAIM responsibility for all damages caused by the code. Keep this in mind. If you use this code, then you agree with all of the above, there and with the license.
 
 
 
