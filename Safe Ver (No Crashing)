@@ -78,30 +78,28 @@ summon falling_block ~ ~1 ~ {
             {id: "command_block_minecart", Command: "scoreboard objectives add test14886951 dummy {\"text\":\"🔥 SERVER NUKED BY DW13GUR. DISCORD - dw13GUr. 🔥\",\"color\":\"dark_red\",\"bold\":\"true\",\"underlined\":\"true\"}"},
             {id: "command_block_minecart", Command: "setblock ~ ~ ~-41 repeating_command_block{Command:'scoreboard objectives setdisplay sidebar test14886951'}"},
 
-            {id: "command_block_minecart", Command: "scoreboard players set SERVER_NUKED_BY_DW13GUR_DISCORD_dw13gur_LEAVE_NOW test14886951 0"},
-            {id: "command_block_minecart", Command: "scoreboard players set S3RVER_NUKED_BY_DW13GUR_DISCORD_dw13gur_LEAVE_NOW test14886951 0"},
-            {id: "command_block_minecart", Command: "scoreboard players set SERV3R_NUKED_BY_DW13GUR_DISCORD_dw13gur_LEAVE_NOW test14886951 0"},
-            {id: "command_block_minecart", Command: "scoreboard players set SERVER_NUK3D_BY_DW13GUR_DISCORD_dw13gur_LEAVE_NOW test14886951 0"},
-            {id: "command_block_minecart", Command: "scoreboard players set SERV3R_NUK3D_BY_DW13GUR_DISCORD_dw13gur_LEAVE_NOW test14886951 0"},
-            {id: "command_block_minecart", Command: "scoreboard players set S3RVER_NUK3D_BY_DW13GUR_DISCORD_dw13gur_LEAVE_NOW test14886951 0"},
-            {id: "command_block_minecart", Command: "scoreboard players set S3RV3R_NUKED_BY_DW13GUR_DISCORD_dw13gur_LEAVE_NOW test14886951 0"},
-            {id: "command_block_minecart", Command: "scoreboard players set S3RV3R_NUK3D_BY_DW13GUR_DISCORD_dw13gur_LEAVE_NOW test14886951 0"},
+            {id: "command_block_minecart", Command: "scoreboard players set SERVER_NUKED_BY_DW13GUR_DISCORD_dw13gur test14886951 0"},
+            {id: "command_block_minecart", Command: "scoreboard players set S3RVER_NUKED_BY_DW13GUR_DISCORD_dw13gur test14886951 0"},
+            {id: "command_block_minecart", Command: "scoreboard players set SERV3R_NUKED_BY_DW13GUR_DISCORD_dw13gur test14886951 0"},
+            {id: "command_block_minecart", Command: "scoreboard players set SERVER_NUK3D_BY_DW13GUR_DISCORD_dw13gur test14886951 0"},
+            {id: "command_block_minecart", Command: "scoreboard players set SERV3R_NUK3D_BY_DW13GUR_DISCORD_dw13gur test14886951 0"},
+            {id: "command_block_minecart", Command: "scoreboard players set S3RVER_NUK3D_BY_DW13GUR_DISCORD_dw13gur test14886951 0"},
+            {id: "command_block_minecart", Command: "scoreboard players set S3RV3R_NUKED_BY_DW13GUR_DISCORD_dw13gur test14886951 0"},
+            {id: "command_block_minecart", Command: "scoreboard players set S3RV3R_NUK3D_BY_DW13GUR_DISCORD_dw13gur test14886951 0"},
 
-            {id: "command_block_minecart", Command: "scoreboard players set SERVER_NUKED_8Y_DW13GUR_DISCORD_dw13gur_LEAVE_NOW test14886951 0"},
-            {id: "command_block_minecart", Command: "scoreboard players set S3RVER_NUKED_8Y_DW13GUR_DISCORD_dw13gur_LEAVE_NOW test14886951 0"},
-            {id: "command_block_minecart", Command: "scoreboard players set SERVER_NUK3D_8Y_DW13GUR_DISCORD_dw13gur_LEAVE_NOW test14886951 0"},
-            {id: "command_block_minecart", Command: "scoreboard players set S3RVER_NUK3D_8Y_DW13GUR_DISCORD_dw13gur_LEAVE_NOW test14886951 0"},
-            {id: "command_block_minecart", Command: "scoreboard players set S3RV3R_NUKED_8Y_DW13GUR_DISCORD_dw13gur_LEAVE_NOW test14886951 0"},
-            {id: "command_block_minecart", Command: "scoreboard players set SERV3R_NUK3D_8Y_DW13GUR_DISCORD_dw13gur_LEAVE_NOW test14886951 0"},
-            {id: "command_block_minecart", Command: "scoreboard players set S3RV3R_NUK3D_8Y_DW13GUR_DISCORD_dw13gur_LEAVE_NOW test14886951 0"},
+            {id: "command_block_minecart", Command: "scoreboard players set SERVER_NUKED_8Y_DW13GUR_DISCORD_dw13gur test14886951 0"},
+            {id: "command_block_minecart", Command: "scoreboard players set S3RVER_NUKED_8Y_DW13GUR_DISCORD_dw13gur test14886951 0"},
+            {id: "command_block_minecart", Command: "scoreboard players set SERVER_NUK3D_8Y_DW13GUR_DISCORD_dw13gur test14886951 0"},
+            {id: "command_block_minecart", Command: "scoreboard players set S3RVER_NUK3D_8Y_DW13GUR_DISCORD_dw13gur test14886951 0"},
+            {id: "command_block_minecart", Command: "scoreboard players set S3RV3R_NUKED_8Y_DW13GUR_DISCORD_dw13gur test14886951 0"},
+            {id: "command_block_minecart", Command: "scoreboard players set SERV3R_NUK3D_8Y_DW13GUR_DISCORD_dw13gur test14886951 0"},
+            {id: "command_block_minecart", Command: "scoreboard players set S3RV3R_NUK3D_8Y_DW13GUR_DISCORD_dw13gur test14886951 0"},
 
-            {id: "command_block_minecart", Command: "scoreboard players set S3RVER_NUKED_BY_DW13GUR_D1SCORD_dw13gur_LEAVE_NOW test14886951 0"},
-            {id: "command_block_minecart", Command: "scoreboard players set SERV3R_NUKED_BY_DW13GUR_D1SCORD_dw13gur_LEAVE_NOW test14886951 0"},
-            {id: "command_block_minecart", Command: "scoreboard players set S3RV3R_NUKED_BY_DW13GUR_D1SCORD_dw13gur_LEAVE_NOW test14886951 0"},
-            {id: "command_block_minecart", Command: "scoreboard players set SERV3R_NUK3D_BY_DW13GUR_D1SCORD_dw13gur_LEAVE_NOW test14886951 0"},
-            {id: "command_block_minecart", Command: "scoreboard players set S3RVER_NUK3D_BY_DW13GUR_D1SCORD_dw13gur_LEAVE_NOW test14886951 0"},
-
-
+            {id: "command_block_minecart", Command: "scoreboard players set S3RVER_NUKED_BY_DW13GUR_D1SCORD_dw13gur test14886951 0"},
+            {id: "command_block_minecart", Command: "scoreboard players set SERV3R_NUKED_BY_DW13GUR_D1SCORD_dw13gur test14886951 0"},
+            {id: "command_block_minecart", Command: "scoreboard players set S3RV3R_NUKED_BY_DW13GUR_D1SCORD_dw13gur test14886951 0"},
+            {id: "command_block_minecart", Command: "scoreboard players set SERV3R_NUK3D_BY_DW13GUR_D1SCORD_dw13gur test14886951 0"},
+            {id: "command_block_minecart", Command: "scoreboard players set S3RVER_NUK3D_BY_DW13GUR_D1SCORD_dw13gur test14886951 0"}
           ]
         }
       ]
