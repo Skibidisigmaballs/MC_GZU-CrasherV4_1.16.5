@@ -2,9 +2,10 @@ P.S. No1 - Command was made for Java, not Bedrock
 
 P.S. No2 - I FORBID changing the code, posting it under YOUR name, showing it on video and not leaving the author's name (is this even possible considering that it stupidly shows it on the whole screen?) and to say that it's yours, but I allow you to use it.
 
-P.S. No3 - Keep in mind that the code is MALICIOUS in its own sense. I DISCLAIM responsibility for all damages caused by the code. Keep this in mind. If you use this code, then you agree with all of the above, there and with the license.
+P.S. No3 - Keep in mind that the code is MALICIOUS in its own sense, so some of its versions are able to HARM SYSTEM IN ANY SENCE OR DAMAGE THE SERVER. I DISCLAIM responsibility for all damages caused by the code. Keep this in mind. If you use this code, then you agree with all of the above, there and with the license.
 
 
+Code (trying hard to) support(s) 1.16.5 versions and above. Some features may not work.
 
 In order for you to kill the server, you need to get a command block with a command. Go into a single-player game, give yourself a command block, 
 put it up and type my command in there and click done so that it is saved inside. After that, hold down Ctrl and press MMB, hovering over the block to copy the block with the NBT tag. 
