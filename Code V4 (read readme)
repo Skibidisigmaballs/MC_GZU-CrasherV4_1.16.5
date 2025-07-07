@@ -1,3 +1,5 @@
+Erase this if you agree with ToS,
+license and other stuff
 summon falling_block ~ ~1 ~ {
   BlockState: {Name: "redstone_block"},
   Time: 10,
