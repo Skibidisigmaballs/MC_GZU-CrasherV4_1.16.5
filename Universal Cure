@@ -1,0 +1,5 @@
+Listen now. Im not a hacker, nor a moron. So if somebody hacked your world, use this
+
+In cas you cant do a shit, youll have to run commands. Above your head theres <=90 blocks, and in the heart of the machine theres minecarts with cblocks.
+So, you have to run '/kill @e[type= minecraft:command_block_minecart] to kill the core and prevent regeneration of the machine.
+Then youll have to destroy machine. Run '/fill ~ ~ ~6 ~ ~5 ~-90 minecraft:air' when standing inside the bedrock cage. Then just deal ith the leftovers
